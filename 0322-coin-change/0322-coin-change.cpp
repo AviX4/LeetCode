@@ -16,13 +16,7 @@ public:
                 }
             }
         }
-        for(int i=1;i<w+1;i++){
-            if(i%coins[0]==0){
-                t[1][i]=i/coins[0];
-            }else{
-                t[1][i]=INT_MAX-1;
-            }
-        }
+        
         
         for(int i=1;i<n+1;i++){
             for(int j=0;j<w+1;j++){
